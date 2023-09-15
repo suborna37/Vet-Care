@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:ital,wght@0,400;0,500;0,700;1,500;1,600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.head{
+    height: 121px;
+    width: 100%;
+    background-color: #daac00;
+}
+
+.head .menu{
+    height: 100%;
+    width: 1200px;
+    padding: 0.25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    cursor: pointer;
+}
+.hader-menu .list{
+    display: flex;
+    align-items: center;
+}
+.head .menu li:last-child{
+    margin: 30px;
+
+}
+.hader-menu .list li a{
+    padding: 10px 20px;
+    display: inline-block;
+
+    color: white;
+    font-size: 29px;
+}
+.input-feild{
+    height: 50px;
+    width: 270px;
+    background-color: #fcc302;
+    border: none;
+    padding: 0 14px;
+    color: white;
+    font-size: 24px;
+
+
+}
+.input-feild::placeholder{
+    font-size: 24px;
+    color: white;
+    
+
+}
+.search-list .icon{
+    height: 50px;
+    width: 70px;
+    background-color: #00BFCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.search-list{
+    position: relative;
+}
+.search-list .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search-icon{
+    color: white;
+    font-size: 24px;
+}
+
+.header-menu .menu li a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 29px;
+      
+}
+/* ----first section---- */
+.container{
+    position: relative;
+    background-color: #fcc302;
+    width: 100%;
+  
+}
+
+.contant{
+    width: 1200px;
+    background-color: #fcc302;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+   padding:  5px;
+   padding-bottom: 100px;
+   padding-top: 90px;
+   display: flex;
+   justify-content: space-between;
+}
+.text-contant{
+    max-width: 60%;
+    background-color: #fcc302;
+    line-height: 70px;
+    padding-right: 20px;
+    justify-content: center;
+}
+.text-contant h1{
+    font-size: 66px;
+    color: #fff;
+    margin-bottom: 40px;
+    
+}
+.img-contant{
+    height: 100%;
+    max-width: 40%;
+}
+.text-contant p{
+    font-size: 30px;
+    color: #fff;
+    line-height: 35px;
+}
+.btn a{
+    color: #fff;
+    height: 65px;
+    width: 180px;
+    font-size: 24px;
+    padding: 24px 34px;
+    border-radius: 9px;
+    
+}
+.btn a:first-child{
+    background-color: #00BFCB;
+    
+}
+.btn a:last-child{
+    border: 3px solid white;
+    margin-left: 35px;
+}
+.text-contant .btn{
+    margin-top: 40px;
+}
+
+/* 2nd section */
+
+.animal-lover-container{
+    position: relative;
+    width: 100%;
+  
+}
+.animal-lover-contant{
+    width: 1200px;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+   padding:  5px;
+   padding-bottom: 100px;
+   padding-top: 110px;
+   display: flex;
+   justify-content: space-between;
+}
+.animal-text-contant{
+    max-width: 50%;
+    line-height: 55px;
+    padding-right: 20px;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.animal-text-contant h2{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 40px;
+    
+}
+.animal-img-contant{
+    height: 100%;
+    max-width: 50%;
+}
+.animal-text-contant p{
+    font-size: 30px;
+    line-height: 35px;
+}
+.btn3 a{
+    background-color: #fcc302;
+    height: 65px;
+    width: 180px;
+    font-size: 24px;
+    padding: 24px 34px;
+    border-radius: 9px;
+    color: #fff;
+}
+
+.animal-text-contant .btn3{
+    margin-top: 40px;
+}
+
+
+/* ---3rd-section---- */
+.service-container{
+    width: 100%;
+    background-color: #fcc302;
+}
+
+.service-text{
+    width: 677px;
+    margin: 0 auto;
+    background-color: #fcc302;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+.service-text h3{
+ font-size: 65px;
+ color: #fff;
+}
+.service-text p{
+    font-size: 30px;
+    color: #fff;
+    line-height: 35px;
+}
+.service-img{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service1 .text1 {
+  text-align: center;
+  width: 341px;
+}
